@@ -3,7 +3,7 @@ import Header from "../components/header";
 import { FilledButton } from "../components/FilledButton";
 import { ReactComponent as Person } from "./person.svg";
 import { ReactComponent as Group } from "./group.svg";
-import { Card } from "./styles/page_3";
+import { Wrapper, Card } from "./styles/page_3";
 import { useDispatch } from "react-redux";
 import { incrementPage } from "../../../../features/page/selectedPageSlice";
 
@@ -12,12 +12,18 @@ const PageFour = () => {
     const dispatch = useDispatch();
 
     return (
-        <>
+        <Wrapper>
             <Header
                 title="How are you planning to use Eren?"
                 subtitle="We'll streamline your setup experience accordingle."
             ></Header>
-            <div style={{ display: "flex", marginTop: "45px" }}>
+            <div
+                style={{
+                    display: "flex",
+                    marginTop: "35px",
+                    marginBottom: "10px",
+                }}
+            >
                 <Card
                     isActive={selectedCard === 1}
                     onClick={() => {
@@ -68,7 +74,7 @@ const PageFour = () => {
             >
                 Create Workspace
             </FilledButton>
-        </>
+        </Wrapper>
     );
 };
 
