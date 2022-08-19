@@ -11,10 +11,6 @@
     scroll-behavior: smooth;
 }
 
-:root {
-    --color-primary: #664de5;
-}
-
 body {
     margin: 0;
     -webkit-font-smoothing: antialiased;

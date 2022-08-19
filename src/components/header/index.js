@@ -1,10 +1,10 @@
 import React from "react";
 import { Container } from "./styles/header";
 
-const Header = () => {
+const Header = ({ src }) => {
     return (
         <Container>
-            <img src="logo.svg" alt="" />
+            <img src={src} alt="" />
             <span>Eden</span>
         </Container>
     );

@@ -13,5 +13,6 @@ export const Container = styled.div`
     span {
         font-weight: bold;
         font-size: var(--height);
+        margin-left: 4px;
     }
 `;
