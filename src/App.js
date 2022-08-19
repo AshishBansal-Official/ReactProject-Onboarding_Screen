@@ -21,14 +21,13 @@ function App() {
             }}
         >
             <Header src={themes[selectedThemeIndex].url}></Header>
-            <div style={{ height: "40px" }}></div>
+            <div style={{ height: "4vw", maxHeight: "60px" }}></div>
             <Stepper totalSteps="4"></Stepper>
-            <div style={{ height: "60px" }}></div>
+            <div style={{ height: "4.5vw", maxHeight: "70px" }}></div>
             <PageProvider></PageProvider>
+            <div style={{ height: "1.3vw", maxHeight: "30px" }}></div>
             <div
                 style={{
-                    right: "20px",
-                    top: "20px",
                     gap: "10px",
                     display: "flex",
                     flexDirection: "row",

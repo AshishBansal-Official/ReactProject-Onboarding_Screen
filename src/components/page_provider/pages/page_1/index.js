@@ -1,5 +1,5 @@
 import React from "react";
-import { Wrapper } from "./styles/page_1";
+import { Form } from "./styles/page_1";
 import { Label } from "../components/Label";
 import { FormField } from "../components/FormField";
 import { FilledButton } from "../components/FilledButton";
@@ -11,12 +11,12 @@ const PageOne = () => {
     const dispatch = useDispatch();
 
     return (
-        <Wrapper>
+        <>
             <Header
                 title="Welcome! First things first..."
                 subtitle={"You can always change them later."}
             ></Header>
-            <form>
+            <Form>
                 <Label>Full Name</Label>
                 <FormField placeholder="Name"></FormField>
                 <div style={{ height: "10px" }}></div>
@@ -25,8 +25,8 @@ const PageOne = () => {
                 <FilledButton onClick={() => dispatch(incrementPage())}>
                     Create Workspace
                 </FilledButton>
-            </form>
-        </Wrapper>
+            </Form>
+        </>
     );
 };
 

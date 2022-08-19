@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
     align-items: center;
 
     span:first-child {
-        font-size: 2.5rem;
+        font-size: 2.6rem;
         font-weight: bold;
         margin: 1rem 0;
         text-align: center;
@@ -16,7 +16,7 @@ export const Wrapper = styled.div`
     span:nth-child(2) {
         font-size: 1rem;
         font-weight: 500;
-        color: grey;
+        color: #7c879c;
         text-align: center;
         font-size: 1.4rem;
         text-align: center;

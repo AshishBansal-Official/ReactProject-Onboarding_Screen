@@ -13,6 +13,11 @@ const PageFour = () => {
                 title="Congratulations, Eren!"
                 subtitle="You have completed onboarding, you can start using the Eden!"
             ></Header>
+            <div
+                style={{
+                    marginBottom: "5px",
+                }}
+            ></div>
             <FilledButton
                 style={{
                     maxWidth: "350px",

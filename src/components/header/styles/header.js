@@ -4,7 +4,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    --height: 2rem;
+    --height: 2.6rem;
 
     img {
         height: var(--height);

@@ -5,18 +5,18 @@ import { FormField } from "../components/FormField";
 import { FilledButton } from "../components/FilledButton";
 import { useDispatch } from "react-redux";
 import { incrementPage } from "../../../../features/page/selectedPageSlice";
-import { Wrapper } from "./styles/page_2";
+import { Form } from "./styles/page_2";
 
 const PageTwo = () => {
     const dispatch = useDispatch();
 
     return (
-        <Wrapper>
+        <>
             <Header
                 title={"Let's set up a home for all your work"}
                 subtitle="You can always create another workspace letter"
             ></Header>
-            <form
+            <Form
                 style={{
                     margin: "4rem 0",
                 }}
@@ -65,8 +65,8 @@ const PageTwo = () => {
                 <FilledButton onClick={() => dispatch(incrementPage())}>
                     Create Workspace
                 </FilledButton>
-            </form>
-        </Wrapper>
+            </Form>
+        </>
     );
 };
 

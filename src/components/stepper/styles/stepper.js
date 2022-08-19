@@ -2,7 +2,7 @@ import styled from "styled-components/macro";
 
 export const StepperContainer = styled.div`
     --active-color: var(--color-primary);
-    --step-size: 3rem;
+    --step-size: 3.4rem;
     --min-step-size: 30px;
     --disabled-color: #f1f4f8;
 
@@ -13,13 +13,13 @@ export const StepperContainer = styled.div`
 
     div:not(:first-child) .left_stepper_line {
         flex: 1;
-        height: 2px;
+        height: 1.3px;
         max-width: var(--min-step-size);
     }
 
     div:not(:last-child) .right_stepper_line {
         flex: 1;
-        height: 2px;
+        height: 1.3px;
         max-width: var(--min-step-size);
     }
 

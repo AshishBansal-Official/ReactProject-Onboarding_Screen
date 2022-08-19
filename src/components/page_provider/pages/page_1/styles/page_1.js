@@ -1,15 +1,11 @@
 import styled from "styled-components/macro";
 
-export const Wrapper = styled.div`
+export const Form = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    margin: 4rem 0;
     width: 100%;
-
-    form {
-        margin: 4rem 0;
-        width: 100%;
-        max-width: 350px;
-    }
+    max-width: 350px;
 `;
